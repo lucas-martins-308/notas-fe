@@ -1,0 +1,26 @@
+.Note {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    margin: 1em;
+    display: grid;
+}
+
+.note-ipt {
+    flex: auto;
+    background-color: #41464F;
+    width: 100%; 
+    height: 100%;
+    min-height: 36em;
+    padding: 10px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    padding: 2em;
+    color: white;
+}
+
+.note-ipt:focus {
+    border: 1px solid #007BFF !important;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
